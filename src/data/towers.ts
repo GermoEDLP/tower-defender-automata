@@ -1,0 +1,33 @@
+import { Tower } from "../store/interfaces/BoardInterface";
+export const towers: Tower[] = [
+  {
+    id: 1,
+    name: "Tower 1",
+    description: "Tower 1 description",
+    cost: 2,
+    damage: 1,
+    health: 1,
+    initialDamage: 1,
+    initialHealth: 1,
+    range: 1,
+    abilities: [],
+    destroyed: false,
+    position: "front",
+    ruins: 1,
+  },
+  {
+    id: 2,
+    name: "Tower 2",
+    description: "Tower 2 description",
+    cost: 3,
+    damage: 1,
+    initialDamage: 1,
+    health: 1,
+    initialHealth: 1,
+    range: 1,
+    abilities: [],
+    destroyed: false,
+    position: "front",
+    ruins: 2,
+  },
+];
